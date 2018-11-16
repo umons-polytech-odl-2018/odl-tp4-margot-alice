@@ -2,8 +2,9 @@ package exercise2;
 
 import java.util.Arrays;
 import java.util.Objects;
+import java.io.Serializable;
 
-public class Classroom {
+public class Classroom implements Serializable {
 	private final Teacher teacher;
 	private final Student[] students;
 
